@@ -1,0 +1,6 @@
+resources:
+  cpu: 0.5
+  memory: 256Mi
+service:
+  type: LoadBalancer  # Bypass port restrictions
+  port: 3000          # Custom port to avoid conflicts
