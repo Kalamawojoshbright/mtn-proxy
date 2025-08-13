@@ -1,0 +1,3 @@
+name = "mtn-proxy"
+compatibility_date = "2025-08-13"
+main = "index.js"
