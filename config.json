@@ -1,0 +1,24 @@
+{
+  "inbounds": [{
+    "port": 3000,
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{ 
+        "id": "b126901c-8515-4d6a-b0b9-9b6c1c7e1d8d", 
+        "alterId": 0 
+      }]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/mtn-ug",
+        "headers": {}
+      }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
