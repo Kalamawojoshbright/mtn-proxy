@@ -1,0 +1,8 @@
+// index.js
+export default {
+  async fetch(request) {
+    return new Response("MTN Proxy is working!", {
+      headers: { 'content-type': 'text/plain' }
+    });
+  }
+}
